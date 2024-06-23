@@ -1,0 +1,175 @@
+nav{
+  background: #00ceff;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  color: black;
+  align-items: center;
+  display: flex;
+}
+nav p{
+  margin-left: 50px;
+  font-size: 50px;
+  
+}
+
+body{
+  margin-top: 150px ;
+  background-color: whitesmoke;
+}
+
+.intro p:first-of-type{
+  margin-left: 50px;
+  font-size: 50px;
+  margin-bottom: -70px;
+}
+.intro p:last-of-type {
+  width: 500px;
+  margin-left: 50px;
+  font-size: 70px;
+  text-align: left;
+  font-family: Monospace;
+}
+.intro h2{
+  margin-left: 50px;
+  margin-top: -60px;
+  font-size: 30px;
+}
+.intro{
+  width: 95%;
+  border: 3px solid #00ceff;
+  margin: 50px auto;
+  background-color: white;
+  display: flex;
+}
+.intro img{
+  width: 300px;
+  margin-top: 10px;
+}
+
+.pendidikan{
+  width: 95%;
+  border: 3px solid #00ceff;
+  margin: 50px auto;
+  background-color: white;
+}
+.pendidikan h1{
+  text-align: center;
+  font-family: nunito;
+  font-size: 30px;
+}
+  .sekolah{
+  width: 95%;
+  border: 3px solid #00FFB0;
+  margin: 50px auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+  }
+    .sekolah img{
+      width: 200px;
+    }
+    .sekolah div{
+      margin-top: 20px;
+    }
+
+.projek{
+  width: 95%;
+  border: 3px solid #00ceff;
+  margin: 50px auto;
+  background-color: white;
+}
+.projek h1{
+  text-align: center;
+  font-family: nunito;
+  font-size: 30px;
+}
+  .jaringan{
+  width: 95%;
+  border: 3px solid #00FFB0;
+  margin: 50px auto;
+  background-color: white;
+}
+    .jaringan h1{
+  margin-left: 50px;
+  font-family: nunito;
+  font-size: 30px;
+}
+      .projek-jaringan{
+        display: flex;
+        gap: 50px;
+        overflow: scroll;
+      }
+        .projek-jaringan img{
+          width: 900px;
+        }
+        .projek-jaringan p{
+          text-align: center;
+          font-size: 40px;
+        }
+  .coding{
+  width: 95%;
+  border: 3px solid #00FFB0;
+  margin: 50px auto;
+  background-color: white;
+}
+    .coding h1{
+  margin-left: 50px;
+  font-family: nunito;
+  font-size: 30px;
+}
+      .isi-coding{
+        width: 95%;
+        border: 3px solid #F7FF00;
+        margin: 50px auto;
+        background-color: white;
+      }
+        .isi-coding h2{
+          margin-left: 50px;
+          font-family: nunito;
+          text-align: center;
+        }
+        .isi-coding input{
+          width: 400px;
+          height: 40px;
+          font-size: 20px;
+          border: solid 2px black;
+        }
+        .isi-coding button{
+          width: 100px;
+          height: 40px;
+          font-size: 20px;
+        }
+          #output-keliling,#output-luas{
+            text-align: left;
+            margin: 20px 20px;
+            font-size: 15px;
+            font-family: Arial;
+          }
+          #output-lingkaran{
+            border-radius: 50%;
+            margin: 20px auto;
+          }
+          
+ footer{
+   text-align: center;
+   font-size: 20px;
+   background-color: #00ceff;
+   height: 50px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+ }
+ footer a{
+   color: black;
+ }
+          
+ @media (max-width:480px){
+   body{
+     display: none;
+   }
+ }
